@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es"><!-- Lenguaje usado en la página -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Tipo de encodificado para páginas web en alfabeto latin -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- para que sea responsive -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- traer fuentes de google / preconnect para que las traiga antes de renderizar la página-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!-- más fuentes de google -->
+    <link rel="stylesheet" href="../css/style.css"> <!-- Referencia y ubicación del archivo de estilos-->
+    <link rel="shortcut icon" href="../assets/icons/semilla-de-cafe.png" type="image/x-icon">
+    <!--Link para insertar FavIcon-->
+    <title>Dream Coffee</title> <!--Título de la página que aparece arriba en el navegador-->
+</head>
+
+<body>
+    <header>
+        <!-- Etiqueta semántica que generalmente incluye el logo, navegación y el título semántico de la página. Funciona como contenedor -->
+        <div class="logo-top">
+            <a href="../index.html">
+                <img src="../assets/logos/im-logo-02.webp" alt="Logo Dream Coffee" title="Logo">
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="../pages/nosotros.html">NOSOTROS</a>
+                </li>
+                <li>
+                    <a href="../pages/productos.html">PRODUCTOS</a>
+                </li>
+                <li>
+                    <a href="../pages/novedades.html">NOVEDADES</a>
+                </li>
+                <li>
+                    <a href="./contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero"></section>
+        <section>
+            <h1 class="contacto-h1">CONTACTO</h1> <!-- Título H1 de la página -->
+            <h2 class="contacto-h2">Actualmente estamos de vacaciones en el Caribe recolectando granos de café</h2>
+
+        </section>
+        <article class="formulario">
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+                <br>
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+                <br>
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" name="Correo" placeholder="Correo">
+                <br>
+                <label for="comentario">Comentario</label>
+                <br>
+                <textarea cols="70" rows="10" name="comentario" id="comentario"
+                    placeholder="ingrese su comentario aqui">Ingrese su comentario aquí</textarea>
+                <button type="submit">Enviar</button>
+            </form>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.1223745863863!2d-70.61067742444585!3d-33.420053773401435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf6867427a61%3A0x6421a9df82506809!2sGral.%20Holley%2C%20Providencia%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1723765762278!5m2!1ses-419!2scl"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </article>
+
+    </main>
+
+
+    <footer>
+
+
+        <div class="footer-container">
+            <ul class="footer-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="novedades.html">Novedades</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <ul class="social-links">
+                <li><a target="_blank" href="https://web.facebook.com/Coderhouse/?_rdc=1&_rdr">
+                        <img src="../assets/icons/i.facebook.png" alt="icono de facebook en negro" class="icon-footer">
+                    </a></li>
+                <li><a target="_blank" href="https://www.instagram.com/coderhouse/">
+                        <img src="../assets/icons/i.instagram.png" alt="icono de instagram en negro"
+                            class="icon-footer">
+                    </a></li>
+                <li><a target="_blank"
+                        href="https://x.com/coderhouse?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                        <img src="../assets/icons/i.twitter.png" alt="icono de twitter en negro" class="icon-footer">
+                    </a></li>
+            </ul>
+            <p>&copy; 2024 Dream Coffee. Todos los derechos reservados.</p>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
