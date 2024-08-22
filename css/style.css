@@ -20,58 +20,20 @@ html {
     font-size: 16px;
 }
 
-/**BARRA DE NAVEGACION**/
-header {
-    display: flex;
-    background-color: #FAE9CD;
-    align-items: center;
-
+/**BARRA DE NAVEGACION**/ 
+.color-nav{
+    background-color: #FAE9CD;;
 }
 
-.logo-top {
-    display: flex;
-    justify-content: left;
 
-}
-
-.logo-top img {
-    width: 5rem;
+nav div a img{
+    width: 4.5rem;
     margin: 1rem;
-
-}
-nav li a {
-    text-decoration: none;
-    color: rgb(35, 21, 21);
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: right;
-
-}
-
-nav {
-    color: rgb(245, 238, 238);
-    display: flex;
-    padding: 0rem;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    font-family: "Montserrat", sans-serif; /* Aplique la fuente en la nav bar para que desaparecieran las propiedades traidas de bootstrap */
-}
-
-nav li {
-    color: rgb(245, 238, 238);
-    font-size: 1.3rem;
-    padding: 10px;
-
-}
+/* CON BOOTSTRAP */
 
 /**HERO SECTION**/
-
 
 .hero h1 {
     font-size: 50px;
@@ -274,7 +236,7 @@ nav li {
 
 .novedades article {
     width: 300px;
-    height: 600px;
+    height: 650px;
 
 
 }
@@ -408,27 +370,7 @@ footer p {
 /**MEDIA QUERYS**/
 
 /**!INDEX**/
-@media screen and (max-width:846px) {
-    header {
-        flex-direction: column;
-    }
 
-    .logo-top {
-        justify-content: center;
-    }
-
-    .logo-top img {
-        width: 6rem;
-        margin: 1rem;
-
-    }
-
-    nav ul {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
 
 @media screen and (max-width:739px) {
     .hero {
