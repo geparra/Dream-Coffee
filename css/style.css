@@ -86,16 +86,37 @@ nav div a img{
 
 /**INDEX**/
 
-.dream-coffee h3{  /**APLICO ESTA PROPIEDAD PARA QUE BOOTSTRAP NO ME CAMBIE EL DISEÑO QUE TRAE POR DETERMINADO**/
-    font-size: 45px;
-    font-weight: 800;
+.dream-coffee{
+    display: flex;
+    height: 464px;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 5px;
+    background-image: url(../assets/images/granos.transparentes.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+.dream-coffee h4{
+    align-items:flex-start;
+}
+.dream-coffee div{
+    width: 750px;
+    text-align:left;
+    margin: 10px;
+}
+
+.dream-coffee h3{  /**!APLICO ESTA PROPIEDAD PARA QUE BOOTSTRAP NO ME CAMBIE EL DISEÑO QUE TRAE POR DETERMINADO**/
+    font-size: 50px;
+    font-weight: 410;
     font-family: "source-serif-pro", serif;
     padding: 10px;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    hyphens: auto;
     letter-spacing: 0.3rem;
     color: #8d4c22;
 }
+
 
 
 /**NOSOTROS SECTION**/
@@ -105,8 +126,8 @@ p {
 }
 
 .nosotros-section {
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 45px;
+    font-weight: 500;
     font-family: "source-serif-pro", serif;
     align-items: center;
     text-align: center;
@@ -120,7 +141,7 @@ p {
     margin-right: auto;
     height: 150px;
     line-height: 26px;
-    max-width: 830px;
+    max-width: 930px;
     font-size: 18px;
     font-family: "Montserrat", sans-serif;
 }
@@ -176,8 +197,8 @@ p {
 
 /**PRODUCTOS SECTION**/
 .productos-h1 {
-    font-size: 75px;
-    font-weight: 600;
+    font-size: 45px;
+    font-weight: 500;
     font-family: "source-serif-pro", serif;
     align-items: center;
     text-align: center;
@@ -187,9 +208,10 @@ p {
 
 .productos-section h2 {
     font-family: "Montserrat", sans-serif; 
+    font-size: 25px;
     align-items: center;
     text-align: center;
-    padding: 5px;
+    padding: 2px;
 }
 
 .productos-section p {
@@ -199,16 +221,66 @@ p {
     margin-right: auto;
     height: 150px;
     line-height: 26px;
-    max-width: 830px;
+    max-width: 930px;
     font-size: 18px;
 
+}
+
+.productos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.productos div {
+    width: 450px;
+    height: 600px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.productos h3 {
+    font-weight: lighter;
+    text-align: center;
+}
+
+.productos h4 {
+    font-weight: 300;
+    text-align: center;
+}
+
+.productos p {
+    text-align: justify;
+    margin: 10px;
+    padding: 5px;
+}
+
+.productos img {
+    margin: 5px;
+    width: 100%;
+}
+
+.productos a {
+    padding: 10px 35px;
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #8d4c22;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center; 
 }
 
 /**NOVEDADES SECTION**/
 
 .novedades-h1 {
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 45px;
+    font-weight: 500;
     font-family: "source-serif-pro", serif;
     align-items: center;
     text-align: center;
@@ -223,7 +295,7 @@ p {
     margin-right: auto;
     height: 150px;
     line-height: 26px;
-    max-width: 830px;
+    max-width: 930px;
     font-size: 18px;
 }
 
@@ -244,7 +316,6 @@ p {
     width: 300px;
     height: 650px;
 
-
 }
 
 .novedades article img {
@@ -254,8 +325,8 @@ p {
 
 /**CONTACTO SECTION**/
 .contacto-h1 {
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 45px;
+    font-weight: 500;
     font-family: "source-serif-pro", serif;
     align-items: center;
     text-align: center;
@@ -264,6 +335,7 @@ p {
 }
 
 .contacto-h2 {
+    font-size: 25px;
     font-family: "Montserrat", sans-serif; 
     align-items: center;
     text-align: center;
@@ -279,8 +351,7 @@ p {
     text-align: justify;
     flex-direction: row-reverse;
     margin-left: 50px;
-    
-
+  
 }
 
 form {
@@ -360,6 +431,7 @@ footer p {
 /**GRIDS GALERIA IMG**/
 
 .galeria-grid {
+    margin-top: 2px;
     margin: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
