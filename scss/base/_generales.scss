@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    /* Aplica la fuente Montserrat a todo el texto */
+}
+
+html {
+    font-size: 14px;
+}
+
+/**BARRA DE NAVEGACION CON BOOTSTRAP**/
+.color-nav{
+                background-color: #FAE9CD;
+        div{
+
+            a{
+
+                img {
+                     width: 4.5rem;
+                     margin: 1rem;
+
+                }
+            }
+        }
+    }    
+    
