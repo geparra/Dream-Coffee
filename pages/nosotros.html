@@ -8,11 +8,11 @@
     <!-- traer fuentes de google / preconnect para que las traiga antes de renderizar la página-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!-- más fuentes de google -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.typekit.net/eba0qqg.css">
-    <link rel="stylesheet" href="../css/style.css"> <!-- Referencia y ubicación del archivo de estilos-->
+    <link rel="stylesheet" href="https://use.typekit.net/eba0qqg.css"> <!--tipografía de los h1-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--Link para insertar Bootstrap-->
+    <link rel="stylesheet" href="../css/estilos.css"> <!-- Referencia y ubicación del archivo de estilos de SASS-->
     <link rel="shortcut icon" href="../assets/icons/semilladecafe.ico" type="image/x-icon">
     <!--Link para insertar FavIcon-->
 
@@ -66,31 +66,35 @@
                 Animate a probar y déjanos llevarte en un viaje por el maravilloso mundo del
                 café, donde cada sorbo es un momento de puro placer y cada aroma es una invitación a soñar
                 despierto</p>
-            <div class="nosotros-container">
-                <img class="nosotrosimg" src="../assets/images/baristas.coffee.jpeg"
-                    alt="fotografia de una persona que cumple rol de barista en una cafeteria">
-                <div class="sobrenosotros">
 
-                    <h2>Estamos aquí para revolucionar la manera en que se consume café</h2>
-
-                    <P>
-                        Queremos compartir contigo nuestra pasión y compromiso: existimos para transformar la forma
-                        en que se toma café. En nuestra búsqueda por elevar esta experiencia cotidiana a algo
-                        extraordinario, nos dedicamos a seleccionar los mejores granos de café de América Latina,
-                        donde cada grano cuenta una historia de tradición y calidad.
-
-                        Desde el momento en que iniciamos nuestra aventura, nos hemos comprometido a ofrecer no solo
-                        una bebida, sino una experiencia sensorial completa.
-
-                    </P>
-                </div>
-            </div>
         </article>
+        <div class="nosotros-container">
+            <img class="nosotrosimg" src="../assets/images/baristas.coffee.jpeg"
+                alt="fotografia de una persona que cumple rol de barista en una cafeteria">
+
+            <div class="sobrenosotros">
+
+                <h2>Estamos aquí para revolucionar la manera en que se consume café</h2>
+
+                <P>
+                    Queremos compartir contigo nuestra pasión y compromiso: existimos para transformar la forma
+                    en que se toma café. En nuestra búsqueda por elevar esta experiencia cotidiana a algo
+                    extraordinario, nos dedicamos a seleccionar los mejores granos de café de América Latina,
+                    donde cada grano cuenta una historia de tradición y calidad.
+
+                    Desde el momento en que iniciamos nuestra aventura, nos hemos comprometido a ofrecer no solo
+                    una bebida, sino una experiencia sensorial completa.
+
+                </P>
+            </div>
+        </div>
+
         <article>
             <div class="sobrenosotros-2">
                 <img class="nosotros-agricultor" src="../assets/images/agricultor.cafe.jpeg"
                     alt="fotografia de un agricultor de café sonriendo">
-                <p>
+                <div class="sobrenosotros">    
+                <p class="nosotrosparrafo-2">
                     Cada taza que preparamos es el
                     resultado de un cuidadoso proceso de elaboración artesanal, donde resaltamos las
                     características únicas de cada variedad de café.
@@ -99,6 +103,7 @@
                     respeto mutuo y la pasión por el café, garantizando que cada paso del camino, desde la
                     cosecha hasta la taza, sea realizado con dedicación y amor por el producto final.
                 </p>
+                </div>
             </div>
         </article>
     </main>

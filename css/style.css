@@ -101,7 +101,7 @@ nav div a img {
 
 .dream-coffee h3 {
     font-size: 50px;
-    font-weight: 410;
+    font-weight: 510;
     font-family: "source-serif-pro", serif;
     padding: 10px;
     text-align: left;
@@ -172,6 +172,7 @@ p {
 
 .nosotros-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin: 15px;
     justify-content: center;
@@ -202,8 +203,10 @@ p {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding: 15px;
-    padding-top: 0px;
+    margin: 15px;
+    justify-content: center;
+    text-align: justify;
+    line-height: 28px;
 
 }
 
@@ -212,12 +215,6 @@ p {
     width: 800px;
 }
 
-.sobrenosotros-2 p {
-    justify-content: center;
-    text-align: justify;
-    margin: 40px;
-    line-height: 28px;
-}
 
 /**PRODUCTOS SECTION**/
 .productos-h1 {
@@ -247,6 +244,7 @@ p {
     line-height: 26px;
     max-width: 930px;
     font-size: 18px;
+    
 
 }
 
@@ -277,9 +275,10 @@ p {
 }
 
 .productos p {
-    text-align: justify;
+    text-align:center;
     margin: 10px;
     padding: 5px;
+    border-bottom: 1px solid #8d4c22;
 }
 
 .productos img {
@@ -287,7 +286,7 @@ p {
     width: 100%;
 }
 
-.productos a {
+.productos a { /*aquí puedo aplicar extends*/
     padding: 10px 35px;
     margin-top: 5px;
     font-size: 10px;

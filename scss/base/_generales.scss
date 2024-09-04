@@ -10,7 +10,7 @@ body {
 }
 
 html {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /**BARRA DE NAVEGACION CON BOOTSTRAP**/
@@ -29,3 +29,21 @@ html {
         }
     }    
     
+/**HERO SECTION GENERAL**/
+.hero{
+    width: 100%;
+    height: calc(100vh - 155px);
+    padding: 2rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: right;
+    background-image: url(../assets/images/hero.section.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
