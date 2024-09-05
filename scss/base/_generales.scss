@@ -15,23 +15,24 @@ html {
 }
 
 /**BARRA DE NAVEGACION CON BOOTSTRAP**/
-.color-nav{
-                background-color: #FAE9CD;
-        div{
+.color-nav {
+    background-color: $color-principal;
 
-            a{
+    div {
 
-                img {
-                     width: 4.5rem;
-                     margin: 1rem;
+        a {
 
-                }
+            img {
+                width: 4.5rem;
+                margin: 1rem;
+
             }
         }
-    }    
-    
+    }
+}
+
 /**HERO SECTION GENERAL**/
-.hero{
+.hero {
     width: 100%;
     height: calc(100vh - 155px);
     padding: 2rem;

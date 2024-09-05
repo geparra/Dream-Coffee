@@ -1,3 +1,4 @@
+/**!HERO INDEX**/
 .hero {
     width: 100%;
     height: calc(100vh - 155px);
@@ -10,18 +11,16 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    @include flex(flex, flex-end, flex-end);
 
     h1 {
-        font-size: 50px;
+        font-size: nth($font-sizes, 1); 
         font-weight: 600;
-        font-family: "source-serif-pro", serif;
+        font-family: $tipografia-secundaria;
 
         h2 {
-            font-size: 30px;
+            font-size: nth($font-sizes, 2); 
             font-family: "Montserrat", sans-serif;
         }
     }
@@ -31,14 +30,13 @@
     display: flex;
     padding: 10px 20px;
     margin-top: 25px;
-    font-size: 16px;
+    font-size: nth($font-sizes, 3); 
     font-weight: bold;
-    color: rgb(255, 255, 255);
-    background-color: #FAE9CD;
+    background-color: $color-principal;
     border: none;
     border-radius: 5px;
-    text-decoration: none;
     transition: background-color 0.5s ease;
+    @extend %btninicio;
 
     &:hover {
         background-color: gray;
@@ -46,10 +44,8 @@
 }
 
 .dream-coffee {
-    display: flex;
+    @include flex(flex, space-between, center);
     height: 464px;
-    align-items: center;
-    justify-content:space-between;
     flex-direction: row;
     padding: 5px;
     background-image: url(../assets/images/granos.transparentes.png);
@@ -59,11 +55,11 @@
     h3 {
         font-size: 50px;
         font-weight: 510;
-        font-family: "source-serif-pro", serif;
+        font-family: $tipografia-secundaria;
         padding: 5px;
         text-align: left;
         letter-spacing: 0.3rem;
-        color: #8d4c22;
+        color: $color-secundario;
 
     div {
         width: 800px;
@@ -92,7 +88,7 @@
         width: 600px;
         margin: 40px;
         color: #ffffff;
-        font-size: 60px;
+        font-size: nth($font-sizes, 4); 
         font-weight: 700;
         text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
     }

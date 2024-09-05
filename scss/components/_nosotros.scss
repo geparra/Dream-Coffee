@@ -1,11 +1,12 @@
+/**!NOSOTROS SECTION**/
 .nosotros-section {
-    font-size: 45px;
+    font-size: nth($font-sizes, 5); // Esto tomará el 5to valor de la lista, es decir, 45px
     font-weight: 500;
-    font-family: "source-serif-pro", serif;
+    font-family: $tipografia-secundaria;
     align-items: center;
     text-align: center;
     margin-top: 20px;
-    color: #8d4c22;
+    color: $color-secundario;
 }
 
 .nosotros-parrafo1 {
@@ -16,42 +17,44 @@
     line-height: 26px;
     max-width: 930px;
     font-size: 18px;
-    
+
 
 }
 
-
 .nosotros-container {
-    display: flex;
+    @include flex(flex, center, justify);
     flex-direction: row;
     align-items: center;
     margin: 15px;
-    justify-content: center;
-    text-align: justify;
     line-height: 28px;
 
     .nosotrosimg {
         height: 100%;
         width: 800px;
 
-   
+
     }
 }
-    
-.sobrenosotros{
+
+.sobrenosotros {
     justify-content: center;
     margin: 40px;
-    h2{
+
+    h2 {
         font-size: 30px;
         padding: 10px;
-        color: #8d4c22;
+        color: $color-secundario;
         font-family: "Montserrat", sans-serif;
-    }    
-    
+    }
+
+    p {
+        text-align: justify;
+    }
+
 
 }
 
-.sobrenosotros-2{
+.sobrenosotros-2 {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -59,11 +62,11 @@
     justify-content: center;
     text-align: justify;
     line-height: 28px;
-        .nosotros-agricultor{
-            height: 100%;
-            width: 800px;
-        
-                
-        }
-}
 
+    .nosotros-agricultor {
+        height: 100%;
+        width: 800px;
+
+
+    }
+}

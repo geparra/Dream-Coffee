@@ -1,3 +1,9 @@
+/**puedo hacer una lista con los diferentes margins**/
+/**probar con otros botones para ver si los agrupa ya que no me sale igual que la clase pero si se aplica el extends**/
+.btn-inicio {
+  text-decoration: none;
+  color: white; }
+
 * {
   padding: 0;
   margin: 0;
@@ -36,6 +42,7 @@ html {
   justify-content: flex-end;
   align-items: flex-end; }
 
+/**!HERO INDEX**/
 .hero {
   width: 100%;
   height: calc(100vh - 155px);
@@ -48,8 +55,8 @@ html {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  display: flex;
   flex-direction: column;
+  display: flex;
   justify-content: flex-end;
   align-items: flex-end; }
   .hero h1 {
@@ -66,20 +73,18 @@ html {
   margin-top: 25px;
   font-size: 16px;
   font-weight: bold;
-  color: white;
   background-color: #FAE9CD;
   border: none;
   border-radius: 5px;
-  text-decoration: none;
   transition: background-color 0.5s ease; }
   .btn-inicio:hover {
     background-color: gray; }
 
 .dream-coffee {
   display: flex;
-  height: 464px;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  height: 464px;
   flex-direction: row;
   padding: 5px;
   background-image: url(../assets/images/granos.transparentes.png);
@@ -133,6 +138,7 @@ html {
 .img-1 {
   grid-row: span 2; }
 
+/**!NOSOTROS SECTION**/
 .nosotros-section {
   font-size: 45px;
   font-weight: 500;
@@ -153,11 +159,11 @@ html {
 
 .nosotros-container {
   display: flex;
+  justify-content: center;
+  align-items: justify;
   flex-direction: row;
   align-items: center;
   margin: 15px;
-  justify-content: center;
-  text-align: justify;
   line-height: 28px; }
   .nosotros-container .nosotrosimg {
     height: 100%;
@@ -171,6 +177,8 @@ html {
     padding: 10px;
     color: #8d4c22;
     font-family: "Montserrat", sans-serif; }
+  .sobrenosotros p {
+    text-align: justify; }
 
 .sobrenosotros-2 {
   display: flex;
@@ -184,6 +192,7 @@ html {
     height: 100%;
     width: 800px; }
 
+/**!FOOTER SECTION**/
 footer {
   text-align: center;
   color: #000000;
