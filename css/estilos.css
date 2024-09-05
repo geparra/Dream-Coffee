@@ -8,7 +8,8 @@ body {
   /* Aplica la fuente Montserrat a todo el texto */ }
 
 html {
-  font-size: 16px; }
+  font-size: 16px;
+  scroll-behavior: smooth; }
 
 /**BARRA DE NAVEGACION CON BOOTSTRAP**/
 .color-nav {
@@ -97,6 +98,7 @@ html {
       text-align: justify;
       margin: 10px; }
 
+/**DEBO DARLE ESTILO AL H4 DE LOS DIV PARA PODERLOS CENTAR EN MQUERYS**/
 .siembra-cafe {
   display: flex;
   width: 100%;
@@ -223,3 +225,203 @@ footer {
         width: 34px;
         height: 34px;
         margin: 10px 10px; }
+
+/**!INDEX**/
+@media screen and (max-width: 1078px) {
+  .siembra-cafe {
+    text-align: center;
+    flex-direction: row; } }
+
+@media screen and (max-width: 964px) {
+  .dream-coffee {
+    flex-direction: column;
+    justify-content: center;
+    height: 500px; }
+  .dream-coffee h3 {
+    text-align: center; }
+  .dream-coffee div {
+    width: 500px;
+    text-align: justify; } }
+
+@media screen and (max-width: 850px) {
+  .siembra-cafe p {
+    font-size: 55px; } }
+
+@media screen and (max-width: 739px) {
+  .hero {
+    justify-content: center;
+    align-items: center;
+    text-align: center; } }
+
+@media screen and (max-width: 715px) {
+  .dream-coffee {
+    height: 600px; }
+  .dream-coffee h3 {
+    font-size: 45px; } }
+
+@media screen and (max-width: 702px) {
+  .galeria-grid {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (max-width: 563px) {
+  .siembra-cafe p {
+    font-size: 50px; } }
+
+@media screen and (max-width: 525px) {
+  .dream-coffee {
+    font-size: 30px;
+    font-weight: 400;
+    height: 680px; }
+  .hero {
+    background-attachment: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; }
+  .dream-coffee div {
+    text-align: justify;
+    font-size: 16px;
+    width: 450px; } }
+
+@media screen and (max-width: 519px) {
+  .siembra-cafe p {
+    font-size: 45px; } }
+
+@media screen and (max-width: 475px) {
+  .siembra-cafe p {
+    font-size: 40px; }
+  .dream-coffee div {
+    text-align: justify;
+    font-size: 16px;
+    width: 400px;
+    height: 700px; } }
+
+@media screen and (max-width: 466px) {
+  .galeria-grid {
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media screen and (max-width: 424px) {
+  .dream-coffee h3 {
+    font-size: 35px; }
+  .dream-coffee div {
+    text-align: justify;
+    font-size: 16px;
+    width: 350px;
+    height: 800px; }
+  .siembra-cafe p {
+    font-size: 37px; } }
+
+@media screen and (max-width: 370px) {
+  .dream-coffee div {
+    width: 300px; }
+  .dream-coffee {
+    height: 855px; } }
+
+/**!NOSOTROS**/
+@media screen and (max-width: 1262px) {
+  .nosotrosimg {
+    width: 600px; }
+  .nosotros-agricultor {
+    width: 600px; }
+  .sobrenosotros h2 {
+    font-size: 25px; }
+  .nosotros-container {
+    margin: 8px; }
+  .sobrenosotros-2 {
+    margin: 8px; } }
+
+@media screen and (max-width: 1150px) {
+  div .nosotrosimg {
+    width: 400px; }
+  .nosotros-container {
+    margin: 5px; }
+  div .nosotros-agricultor {
+    width: 400px; }
+  .sobrenosotros-2 {
+    margin: 5px; } }
+
+@media screen and (max-width: 1144px) {
+  .sobrenosotros-2 {
+    flex-direction: column; }
+  .nosotros-container {
+    flex-direction: column; } }
+
+@media screen and (max-width: 971px) {
+  .nosotros-container {
+    margin: 1px; }
+  .sobrenosotros-2 {
+    margin: 1px; } }
+
+@media screen and (max-width: 820px) {
+  .nosotros-container .nosotrosimg {
+    width: 600px; }
+  .sobrenosotros-2 .nosotros-agricultor {
+    width: 600px; } }
+
+@media screen and (max-width: 828px) {
+  .nosotros-parrafo1 {
+    max-width: 730px; }
+  .nosotros-section {
+    font-size: 30px; } }
+
+@media screen and (max-width: 740px) {
+  .nosotros-parrafo1 {
+    max-width: 630px; } }
+
+@media screen and (max-width: 652px) {
+  .nosotros-section {
+    font-size: 30px;
+    margin-top: 10px; }
+  .sobrenosotros-2 p {
+    margin: 20px; } }
+
+@media screen and (max-width: 611px) {
+  .nosotros-container .nosotrosimg {
+    width: 400px; }
+  .sobrenosotros-2 .nosotros-agricultor {
+    width: 400px; }
+  .nosotros-parrafo1 {
+    max-width: 530px; } }
+
+@media screen and (max-width: 570px) {
+  .nosotros-section {
+    margin: 10px;
+    padding: 5px; }
+  .nosotros-parrafo1 {
+    text-align: center;
+    margin: 5px;
+    height: 200px;
+    padding: 5px;
+    line-height: 26px;
+    max-width: 630px;
+    font-size: 18px; } }
+
+@media screen and (max-width: 526px) {
+  .sobrenosotros {
+    justify-content: center;
+    margin: 20px; }
+  .sobrenosotros-2 p {
+    justify-content: center;
+    margin: 10px; } }
+
+@media screen and (max-width: 439px) {
+  .nosotros-parrafo1 {
+    height: 200px;
+    max-width: 530px; } }
+
+@media screen and (max-width: 425px) {
+  .nosotros-parrafo1 {
+    height: 300px; } }
+
+@media screen and (max-width: 407px) {
+  .nosotros-container .nosotrosimg {
+    width: 300px; }
+  .sobrenosotros-2 .nosotros-agricultor {
+    width: 300px; } }
+
+/**!FOOTER**/
+@media screen and (max-width: 370px) {
+  footer .footer-container .footer-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; } }
