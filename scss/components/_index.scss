@@ -15,12 +15,12 @@
     @include flex(flex, flex-end, flex-end);
 
     h1 {
-        font-size: nth($font-sizes, 1); 
+        font-size: nth($font-sizes, 1);
         font-weight: 600;
         font-family: $tipografia-secundaria;
 
         h2 {
-            font-size: nth($font-sizes, 2); 
+            font-size: nth($font-sizes, 2);
             font-family: "Montserrat", sans-serif;
         }
     }
@@ -30,7 +30,7 @@
     display: flex;
     padding: 10px 20px;
     margin-top: 25px;
-    font-size: nth($font-sizes, 3); 
+    font-size: nth($font-sizes, 3);
     font-weight: bold;
     background-color: $color-principal;
     border: none;
@@ -61,15 +61,16 @@
         letter-spacing: 0.3rem;
         color: $color-secundario;
 
-    div {
-        width: 800px;
-        text-align:justify;
-        margin: 10px;
-        
-            
+        div {
+            width: 800px;
+            text-align: justify;
+            margin: 10px;
+
+
         }
     }
 }
+
 /**DEBO DARLE ESTILO AL H4 DE LOS DIV PARA PODERLOS CENTAR EN MQUERYS**/
 
 .siembra-cafe {
@@ -88,7 +89,7 @@
         width: 600px;
         margin: 40px;
         color: #ffffff;
-        font-size: nth($font-sizes, 4); 
+        font-size: nth($font-sizes, 4);
         font-weight: 700;
         text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
     }
@@ -103,16 +104,15 @@
     gap: 10px;
 
     div {
-   
-            img {
-                height: 100%;
-                width: 100%;
-                object-fit: cover;
-            }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
         }
+    }
 }
 
-.img-1{
+.img-1 {
     grid-row: span 2;
 }
-
