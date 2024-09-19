@@ -680,8 +680,8 @@ footer {
 @media screen and (max-width: 360px) {
   .novedades-section {
     max-width: 330px;
-    padding: 10px;
-    height: 325px; }
+    padding: 18px;
+    height: 353px; }
   .novedades-h1 {
     font-size: 35px; } }
 
