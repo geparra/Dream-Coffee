@@ -323,7 +323,6 @@ section .contacto-h2 {
   margin-left: 50px; }
   .formulario form {
     gap: 8px;
-    width: 40%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -543,6 +542,12 @@ footer {
 @media screen and (max-width: 702px) {
   .galeria-grid {
     grid-template-columns: repeat(2, 1fr); } }
+
+@media screen and (max-width: 700px) {
+  iframe {
+    width: 450px; }
+  form {
+    width: 100%; } }
 
 @media screen and (max-width: 650px) {
   .nosotros-section {
