@@ -178,6 +178,7 @@
 
     .productos-section h2 {
         font-size: 23px;
+        padding: 20px;
 
     }
 
@@ -420,6 +421,7 @@
 @media screen and (max-width:470px) {
     .productos-h1 {
         font-size: 28px;
+        padding: 10px;
     }
 
     .productos-section h2 {
@@ -485,6 +487,11 @@
     }
     .novedades-h1 {
         font-size: 40px;
+    }
+
+    .productos-section h2 {
+        padding: 30px;
+
     }
 
 }

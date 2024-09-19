@@ -484,7 +484,8 @@ footer {
   .productos-h1 {
     font-size: 28px; }
   .productos-section h2 {
-    font-size: 23px; }
+    font-size: 23px;
+    padding: 20px; }
   .productos-section p {
     height: 200px;
     max-width: 830px;
@@ -629,7 +630,8 @@ footer {
 
 @media screen and (max-width: 470px) {
   .productos-h1 {
-    font-size: 28px; }
+    font-size: 28px;
+    padding: 10px; }
   .productos-section h2 {
     font-size: 19px; }
   .productos div {
@@ -666,7 +668,9 @@ footer {
   .sobrenosotros-2 .nosotros-agricultor {
     width: 300px; }
   .novedades-h1 {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .productos-section h2 {
+    padding: 30px; } }
 
 @media screen and (max-width: 370px) {
   .dream-coffee div {
