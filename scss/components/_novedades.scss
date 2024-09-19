@@ -1,0 +1,48 @@
+/**!NOVEDADES SECTION**/
+.novedades-h1 {
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "source-serif-pro", serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    color: #8d4c22;
+
+}
+
+.novedades-section {
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    line-height: 26px;
+    max-width: 930px;
+    font-size: 18px;
+}
+
+.novedades {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px;
+
+    article {
+        width: 300px;
+        height: 650px;
+
+        img {
+            width: 300px;
+            height: 400px;
+
+        }
+    }
+}
+
+.novedades {
+    p{
+        margin: 5px;
+        text-align: justify; 
+    }
+}

@@ -1,147 +1,27 @@
-/**!INDEX**/
+@media screen and (max-width:1370px) {
+    .productos div {
+        height: 650px;
+    }
 
-@media screen and (max-width:1078px) {
-    .siembra-cafe {
-        text-align: center;
-        flex-direction: row;
+    .productos {
+        margin: 0px;
+
     }
 }
 
-@media screen and (max-width:964px) {
-    .dream-coffee {
+@media screen and (max-width:1350px) {
+    .productos {
+        margin: 0px;
+        flex-wrap: nowrap;
         flex-direction: column;
-        justify-content: center;
-        height: 500px;
+
     }
 
-    .dream-coffee h3 {
-        text-align: center;
-    }
-
-    .dream-coffee div {
-        width: 500px;
-        text-align: justify;
-
+    .productos div {
+        height: 550px;
     }
 }
 
-@media screen and (max-width:850px) {
-    .siembra-cafe p {
-        font-size: 55px;
-    }
-}
-
-@media screen and (max-width:739px) {
-    .hero {
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-}
-
-@media screen and (max-width:715px) {
-    .dream-coffee {
-        height: 600px;
-    }
-
-    .dream-coffee h3 {
-        font-size: 45px;
-    }
-}
-
-@media screen and (max-width:702px) {
-    .galeria-grid {
-        grid-template-columns: repeat(2, 1fr);
-
-    }
-}
-
-@media screen and (max-width:563px) {
-    .siembra-cafe p {
-        font-size: 50px;
-    }
-
-}
-
-@media screen and (max-width:525px) {
-    .dream-coffee {
-        font-size: 30px;
-        font-weight: 400;
-        height: 680px;
-    }
-
-    .hero {
-        background-attachment: inherit;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-    }
-
-    .dream-coffee div {
-        text-align: justify;
-        font-size: 16px;
-        width: 450px;
-
-    }
-}
-
-@media screen and (max-width:519px) {
-    .siembra-cafe p {
-        font-size: 45px;
-    }
-}
-
-@media screen and (max-width:475px) {
-    .siembra-cafe p {
-        font-size: 40px;
-    }
-
-    .dream-coffee div {
-        text-align: justify;
-        font-size: 16px;
-        width: 400px;
-        height: 700px;
-
-    }
-}
-
-@media screen and (max-width:466px) {
-    .galeria-grid {
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-}
-
-@media screen and (max-width:424px) {
-    .dream-coffee h3 {
-        font-size: 35px;
-    }
-
-    .dream-coffee div {
-        text-align: justify;
-        font-size: 16px;
-        width: 350px;
-        height: 800px;
-    }
-
-    .siembra-cafe p {
-        font-size: 37px;
-    }
-}
-
-@media screen and (max-width:370px) {
-    .dream-coffee div {
-        width: 300px;
-
-    }
-
-    .dream-coffee {
-        height: 855px;
-    }
-}
-
-/**!NOSOTROS**/
 @media screen and (max-width:1262px) {
     .nosotrosimg {
         width: 600px;
@@ -163,6 +43,36 @@
         margin: 8px;
     }
 
+}
+@media screen and (max-width:1200px) {
+    .formulario {
+        flex-direction: column;
+
+    }
+
+    .contacto-h1 {
+        font-size: 30px;
+
+    }
+
+    .contacto-h2 {
+        font-size: 20px;
+
+    }
+}
+
+@media screen and (max-width:1138px) {
+    .contacto-h2 {
+        font-size: 17px;
+
+    }
+
+}
+@media screen and (max-width:1205px) {
+    .productos-h1 {
+        font-size: 40px;
+
+    }
 }
 
 @media screen and (max-width:1150px) {
@@ -195,13 +105,124 @@
 
 }
 
-@media screen and (max-width:971px) {
+@media screen and (max-width:1070px) {
+    .siembra-cafe {
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .productos-h1 {
+        font-size: 35px;
+
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:970px) {
     .nosotros-container {
         margin: 1px;
     }
 
     .sobrenosotros-2 {
         margin: 1px;
+    }
+
+    .productos-section h2 {
+        font-size: 20px;
+
+    }
+    .contacto-h1 {
+        font-size: 25px;
+
+    }
+
+    .contacto-h2 {
+        font-size: 15px;
+
+    }
+
+    .formulario {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:964px) {
+    .dream-coffee {
+        flex-direction: column;
+        justify-content: center;
+        height: 500px;
+    }
+
+    .dream-coffee h3 {
+        text-align: center;
+    }
+
+    .dream-coffee div {
+        width: 500px;
+        text-align: justify;
+
+    }
+}
+
+@media screen and (max-width:955px) {
+    .productos-h1 {
+        font-size: 28px;
+
+    }
+
+    .productos-section h2 {
+        font-size: 23px;
+
+    }
+
+    .productos-section p {
+        height: 200px;
+        max-width: 830px;
+        padding: 15px;
+
+    }
+
+}
+
+@media screen and (max-width:943px) {
+    .novedades {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .novedades-section {
+        height: 200px;
+        max-width: 630px;
+        flex-direction: column;
+
+    }
+
+    .novedades-h1 {
+        font-size: 43px;
+
+    }
+    iframe {
+        width: 450px;
+
+    }
+
+    form {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:850px) {
+    .siembra-cafe p {
+        font-size: 55px;
     }
 }
 
@@ -214,9 +235,6 @@
         width: 600px;
     }
 
-}
-
-@media screen and (max-width:828px) {
     .nosotros-parrafo1 {
         max-width: 730px;
     }
@@ -225,15 +243,48 @@
         font-size: 30px;
 
     }
+
 }
 
-@media screen and (max-width:740px) {
-    .nosotros-parrafo1 {
+@media screen and (max-width:770px) {
+    .productos-section p {
+        height: 250px;
         max-width: 630px;
+
     }
 }
 
-@media screen and (max-width:652px) {
+@media screen and (max-width:740px) {
+    .hero {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nosotros-parrafo1 {
+        max-width: 630px;
+    }
+
+}
+
+@media screen and (max-width:715px) {
+    .dream-coffee {
+        height: 600px;
+    }
+
+    .dream-coffee h3 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:702px) {
+    .galeria-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+@media screen and (max-width:650px) {
     .nosotros-section {
         font-size: 30px;
         margin-top: 10px;
@@ -241,6 +292,13 @@
 
     .sobrenosotros-2 p {
         margin: 20px;
+
+    }
+
+    .productos-section p {
+        height: 310px;
+        max-width: 630px;
+
 
     }
 }
@@ -259,7 +317,13 @@
 
     }
 }
+@media screen and (max-width:580px) {
+    .novedades-section {
+        height: 300px;
+        max-width: 430px;
 
+    }
+}
 @media screen and (max-width:570px) {
     .nosotros-section {
         margin: 10px;
@@ -270,14 +334,41 @@
         text-align: center;
         margin: 5px;
         height: 200px;
-        padding: 5px;
+        padding: 10px;
         line-height: 26px;
         max-width: 630px;
         font-size: 18px;
     }
 }
 
+@media screen and (max-width:563px) {
+    .siembra-cafe p {
+        font-size: 50px;
+    }
+
+}
+
 @media screen and (max-width:526px) {
+    .dream-coffee {
+        font-size: 30px;
+        font-weight: 400;
+        height: 680px;
+    }
+
+    .hero {
+        background-attachment: inherit;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .dream-coffee div {
+        text-align: justify;
+        font-size: 16px;
+        width: 450px;
+
+    }
+
     .sobrenosotros {
         justify-content: center;
         margin: 20px;
@@ -289,24 +380,90 @@
 
     }
 }
+@media screen and (max-width:530px) {
+    .productos-section p {
+        max-width: 430px;
+    }
+}
 
-@media screen and (max-width:439px) {
-    .nosotros-parrafo1 {
-        height: 200px;
-        max-width: 530px;
+@media screen and (max-width:519px) {
+    .siembra-cafe p {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .siembra-cafe p {
+        font-size: 40px;
+    }
+
+    .dream-coffee div {
+        text-align: justify;
+        font-size: 16px;
+        width: 400px;
+        height: 700px;
+
+    }
+}
+@media screen and (max-width:470px) {
+    .productos-h1 {
+        font-size: 28px;
+    }
+
+    .productos-section h2 {
+        font-size: 19px;
+    }
+
+    .productos div {
+        width: 350px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:468px) {
+    .galeria-grid {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    iframe {
+        width: 350px;
 
     }
 }
 
 @media screen and (max-width:425px) {
+    .dream-coffee h3 {
+        font-size: 35px;
+    }
+
+    .dream-coffee div {
+        text-align: justify;
+        font-size: 16px;
+        width: 350px;
+        height: 800px;
+    }
+
+    .siembra-cafe p {
+        font-size: 37px;
+    }
+
     .nosotros-parrafo1 {
         height: 300px;
 
+    }
+    .contacto-h1 {
+        font-size: 20px;
+
+    }
+
+    iframe {
+        width: 300px;
+        height: 400px;
 
     }
 }
 
-@media screen and (max-width:407px) {
+@media screen and (max-width:406px) {
     .nosotros-container .nosotrosimg {
         width: 300px;
     }
@@ -314,8 +471,33 @@
     .sobrenosotros-2 .nosotros-agricultor {
         width: 300px;
     }
+    .novedades-h1 {
+        font-size: 40px;
+    }
 
 }
+
+@media screen and (max-width:370px) {
+    .dream-coffee div {
+        width: 300px;
+
+    }
+
+    .dream-coffee {
+        height: 855px;
+    }
+}
+@media screen and (max-width:360px) {
+    .novedades-section {
+        max-width: 330px;
+    }
+
+    .novedades-h1 {
+        font-size: 35px;
+    }
+}
+
+
 
 /**!FOOTER**/
 

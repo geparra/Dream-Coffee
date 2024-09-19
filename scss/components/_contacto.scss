@@ -1,0 +1,66 @@
+/**!CONTACTOS SECTION**/
+section{
+
+    .contacto-h1{
+        font-size: 45px;
+        font-weight: 500;
+        font-family: "source-serif-pro", serif;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        color: #8d4c22;
+
+    }
+
+ 
+}
+
+section{
+
+    .contacto-h2{
+        font-size: 25px;
+        font-family: "Montserrat", sans-serif;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+
+
+    }  
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    justify-content: center;
+    text-align: justify;
+    flex-direction: row-reverse;
+    margin-left: 50px;
+    form{
+        gap: 8px;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0px auto;
+        text-align: center;
+        padding: 20px 0px 20px;
+        font-family: "Montserrat", sans-serif;
+
+    }
+}
+
+.btn-enviar{
+   
+    padding: 10px 20px;
+    margin-top: 25px;
+    font-size: nth($font-sizes, 3);
+    font-weight: bold;
+    background-color: $color-secundario;
+    border: none;
+    border-radius: 5px;
+    @extend %btninicio;
+    text-align: center;
+    align-items: center;
+
+}
