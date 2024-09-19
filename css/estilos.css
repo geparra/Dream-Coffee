@@ -450,11 +450,6 @@ footer {
   .productos-h1 {
     font-size: 35px; } }
 
-@media (max-width: 991px) {
-  .navbar-collapse {
-    display: flex;
-    justify-content: center; } }
-
 @media screen and (max-width: 970px) {
   .nosotros-container {
     margin: 1px; }
@@ -495,18 +490,6 @@ footer {
   .novedades {
     flex-direction: column; } }
 
-@media screen and (max-width: 700px) {
-  .novedades-section {
-    height: 200px;
-    max-width: 630px;
-    flex-direction: column; }
-  .novedades-h1 {
-    font-size: 43px; }
-  iframe {
-    width: 450px; }
-  form {
-    width: 100%; } }
-
 @media screen and (max-width: 850px) {
   .siembra-cafe p {
     font-size: 55px; } }
@@ -519,7 +502,19 @@ footer {
   .nosotros-parrafo1 {
     max-width: 730px; }
   .nosotros-section {
-    font-size: 30px; } }
+    font-size: 45px; } }
+
+@media screen and (max-width: 700px) {
+  .novedades-section {
+    height: 200px;
+    max-width: 630px;
+    flex-direction: column; }
+  .novedades-h1 {
+    font-size: 43px; }
+  iframe {
+    width: 450px; }
+  form {
+    width: 100%; } }
 
 @media screen and (max-width: 770px) {
   .productos-section p {
@@ -552,7 +547,7 @@ footer {
 
 @media screen and (max-width: 650px) {
   .nosotros-section {
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 10px; }
   .sobrenosotros-2 p {
     margin: 20px; }
@@ -631,7 +626,7 @@ footer {
 @media screen and (max-width: 470px) {
   .productos-h1 {
     font-size: 28px;
-    padding: 10px; }
+    padding: 8px; }
   .productos-section h2 {
     font-size: 19px; }
   .productos div {
@@ -642,7 +637,9 @@ footer {
   .galeria-grid {
     grid-template-columns: repeat(1, 1fr); }
   iframe {
-    width: 350px; } }
+    width: 350px; }
+  .nosotros-parrafo1 {
+    height: 300px; } }
 
 @media screen and (max-width: 425px) {
   .dream-coffee h3 {
@@ -654,10 +651,9 @@ footer {
     height: 800px; }
   .siembra-cafe p {
     font-size: 37px; }
-  .nosotros-parrafo1 {
-    height: 300px; }
   .contacto-h1 {
-    font-size: 20px; }
+    font-size: 20px;
+    padding: 8px; }
   iframe {
     width: 300px;
     height: 400px; } }
@@ -668,19 +664,24 @@ footer {
   .sobrenosotros-2 .nosotros-agricultor {
     width: 300px; }
   .novedades-h1 {
-    font-size: 40px; }
+    font-size: 40px;
+    padding: 15px; }
   .productos-section h2 {
-    padding: 30px; } }
+    padding: 15px; } }
 
 @media screen and (max-width: 370px) {
   .dream-coffee div {
     width: 300px; }
   .dream-coffee {
-    height: 855px; } }
+    height: 855px; }
+  .contacto-h1 {
+    font-size: 15px; } }
 
 @media screen and (max-width: 360px) {
   .novedades-section {
-    max-width: 330px; }
+    max-width: 330px;
+    padding: 10px;
+    height: 325px; }
   .novedades-h1 {
     font-size: 35px; } }
 
