@@ -667,7 +667,7 @@ footer {
     font-size: 40px;
     padding: 15px; }
   .productos-section h2 {
-    padding: 15px; } }
+    padding: 13px; } }
 
 @media screen and (max-width: 370px) {
   .dream-coffee div {
@@ -680,10 +680,11 @@ footer {
 @media screen and (max-width: 360px) {
   .novedades-section {
     max-width: 330px;
-    padding: 18px;
     height: 353px; }
   .novedades-h1 {
-    font-size: 35px; } }
+    font-size: 35px; }
+  .novedades-section p {
+    padding: 15px; } }
 
 /**!FOOTER**/
 @media screen and (max-width: 370px) {
