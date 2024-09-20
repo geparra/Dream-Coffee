@@ -326,6 +326,7 @@
     .novedades-section {
         height: 300px;
         max-width: 430px;
+       
 
     }
 }
@@ -397,6 +398,13 @@
     }
 }
 
+@media screen and (max-width:440px) {
+    .novedades-section{
+        padding: 25px;
+        height: 350px;
+    }
+    }
+
 @media screen and (max-width:475px) {
     .siembra-cafe p {
         font-size: 40px;
@@ -439,8 +447,11 @@
         height: 300px;
 
     }
+
+    
 }
 
+    
 @media screen and (max-width:425px) {
     .dream-coffee h3 {
         font-size: 35px;
@@ -467,7 +478,8 @@
         width: 300px;
         height: 400px;
 
-    }
+    } 
+    
 }
 
 @media screen and (max-width:406px) {
@@ -486,6 +498,14 @@
     .productos-section h2 {
         padding: 13px;
 
+    }
+
+    .novedades-section {
+        max-width: 330px;
+        height: 350px;
+        padding: 15px;
+        padding-top: 0%;
+       
     }
 
 }
@@ -507,20 +527,13 @@
     }
 }
 @media screen and (max-width:360px) {
-    .novedades-section {
-        max-width: 330px;
-        height: 353px;
-    }
+    
 
     .novedades-h1 {
         font-size: 35px;
     }
-
-    .novedades-section p {
-        padding: 12px;
-        padding-top: 0%;
-    }
 }
+    
 
 
 
