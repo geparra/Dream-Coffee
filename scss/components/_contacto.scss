@@ -61,5 +61,11 @@ section{
     @extend %btninicio;
     text-align: center;
     align-items: center;
+    transition: background-color 0.4s ease, box-shadow 0.4s ease;
 
+}
+
+.btn-enviar:hover {
+    background-color: lighten($color-secundario, 10%);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
 }

@@ -6,7 +6,7 @@
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     text-align: right;
-    background-image: url(../assets/images/hero.section.jpeg);
+    background-image: url(../assets/images/hero.section.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -96,7 +96,7 @@
 }
 
 .galeria-grid {
-    margin-top: 2px;
+    margin-top: 1px;
     margin: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -104,14 +104,49 @@
     gap: 10px;
 
     div {
-
+        position: relative; 
+        margin: 0; 
+        
         img {
             height: 100%;
             width: 100%;
             object-fit: cover;
+            transition: opacity 0.3s ease; /* Transición para la opacidad */
+            
+        }
+
+        
+        .texto {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+            color: white; 
+            opacity: 0; 
+            transition: opacity 0.3s ease; /* Transición para la opacidad del texto */
+        }
+
+        /* Estilos al hacer hover */
+        &:hover {
+            img {
+                opacity: 0.9; /* Opaque la imagen un poco */
+                
+            }
+
+            .texto {
+                opacity: 1; /* Muestra el texto al hacer hover */
+            }
         }
     }
 }
+
+/*Tengo un error con el hover en la imagenes, queda un espacio sin cubrir ver como solucionarlo */
 
 .img-1 {
     grid-row: span 2;

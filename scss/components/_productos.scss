@@ -55,6 +55,11 @@ article {
         img {
             margin: 5px;
             width: 100%;
+            transition: transform 0.3s ease; /* recuerda: transición para suavizar el efecto */
+
+            &:hover {
+                transform: scale(1.03); /* Aplica el zoom sutil */
+            }
 
         h3{
             font-weight: lighter;
@@ -64,14 +69,7 @@ article {
             font-weight: 300;
             text-align: center;
 
-        p{
-            text-align: center;
-            margin: 10px;
-            padding: 5px;
-            border-bottom: 1px solid #8d4c22;
-
-      
-        }
+        
         }
         }
         }
@@ -93,5 +91,16 @@ article {
         text-align: center;
  
         
+    }
+}
+
+.productos {
+    p{
+        text-align: center;
+        margin: 10px;
+        padding: 5px;
+        border-bottom: 1px solid #8d4c22;
+
+  
     }
 }
